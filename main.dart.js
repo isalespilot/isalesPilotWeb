@@ -122998,7 +122998,7 @@ n.f8($.vM()+a,"API URL")
 n.f8(l.e,"POST URL PATH")
 n.f8(l.gvM(),"Query Parameters")
 g=t.N
-k=A.T(["Content-type","application/json"],g,g)
+k=A.T(["Content-type","application/json","Access-Control-Allow-Methods","POST,GET,DELETE,PUT,OPTIONS","Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale"],g,g)
 n.f8(k,"Api Header")
 s=11
 return A.q(A.bk_(l,B.aL.K_(b,null),k),$async$q3)
